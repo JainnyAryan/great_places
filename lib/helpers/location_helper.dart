@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-const G_MAPS_API_KEY = 'AIzaSyDWbijk5AX-Y1FujpuCgQz7Pq7G8npGPZQ';
+const G_MAPS_API_KEY = 'API-KEY';
 
-const G_MAPS_SIGNATURE = "QgDzNXyqOQ1ORLLKfUeTThkJWfw=";
+const G_MAPS_SIGNATURE = "API-SIGN";
 
 class LocationHelper {
   static String generateLocationPreviewImage(
